@@ -11,6 +11,33 @@
 
 ## Introdução à linguagem Java e sua estrutura ##
 
+
+<div id='inicio'/> 
+
+### 📚 Exercícios e anotações  ### 
+
+* [aula_01: variáveis e operadores](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src)
+
+* [aula_02: estruturas condicionais](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_02)
+
+* [aula_04: arrays - vetores e matrizes]()
+* [aula_05: métodos]()
+* [aula_06: orientação a objetos - pt. 01]()
+* [aula_07: orientação a objetos - pt. 02]()
+* [aula_08: orientação a objetos - pt. 03]()
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ``` 
 package helloworld;
 
@@ -26,36 +53,7 @@ public class HelloWorld {
 ```
 
 
-<div id='inicio'/> 
-
-### 📚 Exercícios e anotações  ### 
-
-* [aula_01: variáveis e operadores](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src)
-
-* [aula_02: estruturas condicionais](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_02)
-
-* [aula_03: laços de repetição](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_03/)
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-<center>
-
+---
 *"Faça o que você pode, com tudo que você tem, em qualquer lugar que você esteja."*
 
-
----
 [🔝 Voltar ao início](#inicio)
