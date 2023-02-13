@@ -100,7 +100,18 @@ public class While_SignosZoadiaco {
 
 			}
 		}
+		
+		/*
+		 * Esperado: 
+		 * Qual é o seu nome? Maria
+		 * Maria, qual é o mês do seu nascimento? (número de 1 a 12) 7
+		 * E o dia do seu nascimento? 18
+		 * Seu signo é Cancêr
+		 * Digite a letra s para realizar outra consulta ou a letra n para encerrar: n
+		 * __________Fim da Consulta____________
 
+		 * 
+		 */
 	}
 
 }
