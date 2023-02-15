@@ -18,54 +18,55 @@ public class Pilha_Livros {
 		 .
 		 */
 		
-		Stack<String> pilhaLivros = new Stack<String>();
+			Stack<String> pilhaLivros = new Stack<String>();
 
-		Scanner leia = new Scanner(System.in);
+			Scanner leia = new Scanner(System.in);
 
-		int opcao;
-		String livro;
+			int opcao;
+			String livro;
 
-		do {
-			System.out.println("_________GERENCIADOR DE LIVROS________\n");
-			System.out.println("1 - Adicionar livro na pilha");
-			System.out.println("2 - Exibir todos os livros da pilha");
-			System.out.println("3 - Retirar ultimo livro");
-			System.out.println("0 - Sair do sistema");
-			System.out.println("Digite o número da opção desejada: ");
-			opcao = leia.nextInt();
+			do {
+				System.out.println("_________GERENCIADOR DE LIVROS________\n");
+				System.out.println("1 - Adicionar livro na pilha");
+				System.out.println("2 - Exibir todos os livros da pilha");
+				System.out.println("3 - Retirar ultimo livro");
+				System.out.println("0 - Sair do sistema");
+				System.out.println("Digite o número da opção desejada: ");
+				opcao = leia.nextInt();
 
-			switch (opcao) {
-			case 1:
-				System.out.println("Digite o nome do livro: ");
-				leia.skip("\\R?");
-				livro = leia.nextLine();
-				pilhaLivros.add(livro);
-				System.out.println("Cadastro concluído: \n" + livro + ", foi adicionado. :)\n");
-				break;
+				switch (opcao) {
+				case 1:
+					System.out.println("Digite o nome do livro: ");
+					leia.skip("\\R?");
+					livro = leia.nextLine();
+					pilhaLivros.add(livro);
+					System.out.println("Cadastro concluído: \n" + livro + ", foi adicionado. :)\n");
+					break;
 
-			case 2:
-				System.out.println("Todos os livros desta pilha: ");
-				if (pilhaLivros.isEmpty())
-					System.out.println("Não há livros na pilha! :/\n");
-				else
+				case 2:
+					System.out.println("Todos os livros desta pilha: ");
+					if (pilhaLivros.isEmpty())
+						System.out.println("Não há livros na pilha! :/\n");
+					else
+						pilhaLivros.forEach(System.out::println);
+					break;
+
+				case 3:
+					if (pilhaLivros.isEmpty())
+						System.out.println("Não há livros na pilha!\n");
+					else
+						System.out.println(
+								"O livro: " + pilhaLivros.pop() + " foi retirado da pilha.\nLivros restantes: ");
 					pilhaLivros.forEach(System.out::println);
-				break;
+				default:
+					if (opcao > 4)
+						System.out.println("Opção inválida!\n");
+				}
 
-			case 3:
-				if (pilhaLivros.isEmpty())
-					System.out.println("Não há livros na pilha!\n");
-				else
-					System.out.println("O livro: " + pilhaLivros.pop() + " foi retirado da pilha.\nLivros restantes: " );
-					pilhaLivros.forEach(System.out::println);
-			default:
-				if (opcao > 4)
-					System.out.println("Opção inválida!\n");
-			}
+			} while (opcao != 0);
+			System.out.println("Sistema finalizado!");
 
-		} while (opcao != 0);
-		System.out.println("Sistema finalizado!");
-		
-		leia.close();
+			leia.close();
 	
 		/*
 		 * Esperado: 

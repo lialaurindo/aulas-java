@@ -19,53 +19,55 @@ public class Fila_ClientesBanco {
 			
 			*/
 		
-		Queue<String> filaBanco = new LinkedList<String>();
-		
-		Scanner leia = new Scanner(System.in);	
-		int opcao;
-		String cliente;
-		
-		do { 
+			Queue<String> filaBanco = new LinkedList<String>();
 
-			System.out.println("_________GERENCIAMENTO DE FILA________\n");
-			System.out.println("1. Cadastro de cliente na fila");
-			System.out.println("2. Exibir todos os clientes da fila");
-			System.out.println("3. Chamar próximo cliente da fila");
-			System.out.println("0. Sair do sistema");
-			System.out.println("Digite o número da opção desejada: ");
-			opcao = leia.nextInt();
+			Scanner leia = new Scanner(System.in);
+			int opcao;
+			String cliente;
 
-			switch (opcao) {
-			case 1:
-				System.out.println("Digite o nome do cliente: ");
-				leia.skip("\\R?");
-				cliente = leia.nextLine();
-				filaBanco.add(cliente);
-				System.out.println("Cadastro concluído: " + cliente + ", agora está fila!\n");
-				break;
-				
-			case 2:
-				System.out.println("Clientes por ordem de chegada: ");
-				if (filaBanco.isEmpty())
-					System.out.println("Não há clientes nesta fila.\n");
-				else 
-					filaBanco.forEach(System.out::println);
-				break;
-				
+			do {
+
+				System.out.println("_________GERENCIAMENTO DE FILA________\n");
+				System.out.println("1. Cadastro de cliente na fila");
+				System.out.println("2. Exibir todos os clientes da fila");
+				System.out.println("3. Chamar próximo cliente da fila");
+				System.out.println("0. Sair do sistema");
+				System.out.println("Digite o número da opção desejada: ");
+				opcao = leia.nextInt();
+
+				switch (opcao) {
+				case 1:
+					System.out.println("Digite o nome do cliente: ");
+					leia.skip("\\R?");
+					cliente = leia.nextLine();
+					filaBanco.add(cliente);
+					System.out.println("Cadastro concluído: " + cliente + ", agora está fila!\n");
+					break;
+
+				case 2:
+					System.out.println("Clientes por ordem de chegada: ");
+					if (filaBanco.isEmpty())
+						System.out.println("Não há clientes nesta fila.\n");
+					else
+						filaBanco.forEach(System.out::println);
+					break;
+
 				case 3:
 					if (filaBanco.isEmpty())
 						System.out.println("Não há clientes nesta fila\n");
-					else 
-					System.out.println("Chegou sua vez, " + filaBanco.poll() + "\nDirija-se ao guichê 1\n");	
+					else
+						System.out.println("Chegou sua vez, " + filaBanco.poll() + "\nDirija-se ao guichê 1\n");
 
 				default:
-						if (opcao > 3)
-							System.out.println("Opção inválida!");	
-						}
+					if (opcao > 3)
+						System.out.println("Opção inválida!");
+				}
 
-		} while (opcao != 0);
-		System.out.println("Sistema finalizado!");
-		
+			} while (opcao != 0);
+			System.out.println("Sistema finalizado!");
+			
+			leia.close();
+
 		/*
 		 * Esperado: 
 		 * _________GERENCIAMENTO DE FILA________
