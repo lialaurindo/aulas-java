@@ -7,15 +7,17 @@ public class Pilha_Livros {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Exercício: organizar a retirada de livros em uma pilha.
-		 * [x] Conter um Menu que aceite as opções 0, 1, 2 e 3, sendo: 
-		 * [x] 1: Deve solicitar o nome do livro. 
-		 * [x] 2: Listar todos os livros da pilha 
-		 * [x] 3: Retirar um livro da pilha 
-		 * [x] 0: O programa deve ser finalizado. 
-		 * [x] Se tentar retirar livro em pilha vazia, validar e informar que a pilha está vazia.
+		 /*
+		 		Exercício: organizar a retirada de livros em uma pilha.
+		 [x] Conter um Menu que aceite as opções 0, 1, 2 e 3, sendo: 
+		 [x] 1: Deve solicitar o nome do livro. 
+		 [x] 2: Listar todos os livros da pilha 
+		 [x] 3: Retirar um livro da pilha 
+		 [x] 0: O programa deve ser finalizado. 
+		 [x] Se tentar retirar livro em pilha vazia, validar e informar que a pilha está vazia
+		 .
 		 */
+		
 		Stack<String> pilhaLivros = new Stack<String>();
 
 		Scanner leia = new Scanner(System.in);

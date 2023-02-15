@@ -9,13 +9,14 @@ public class Fila_ClientesBanco {
 	public static void main(String[] args) {
 
 			/*
-		    Organizar a ordem de chegada dos Clientes de um Banco. 
-		    - O programa deverá ter um Menu que aceitará as opções 0, 1, 2 e 3:
-			1: Adicionar um novo Cliente na fila. Deve solicitar o nome do Cliente.
-			2: Listar todos os Clientes na fila
-			3: Chamar (retirar) uma pessoa da fila 
-			0: O programa deve ser finalizado.
-			- Caso a fila esteja vazia, o programa deverá informar
+		    	Exercício: organizar a ordem de chegada dos Clientes de um Banco. 
+		    [x] O programa deverá ter um Menu que aceitará as opções 0, 1, 2 e 3:
+			[x] 1: Adicionar um novo Cliente na fila. Deve solicitar o nome do Cliente.
+			[x] 2: Listar todos os Clientes na fila
+			[x] 3: Chamar (retirar) uma pessoa da fila 
+			[x] 0: O programa deve ser finalizado.
+			[x] Se fila vazia ao consultar ou remover cliente, deverá ser informado;
+			
 			*/
 		
 		Queue<String> filaBanco = new LinkedList<String>();
@@ -40,20 +41,20 @@ public class Fila_ClientesBanco {
 				leia.skip("\\R?");
 				cliente = leia.nextLine();
 				filaBanco.add(cliente);
-				System.out.println("Cadastro concluído: " + cliente + ", agora está cadastrado na fila!\n");
+				System.out.println("Cadastro concluído: " + cliente + ", agora está fila!\n");
 				break;
 				
 			case 2:
 				System.out.println("Clientes por ordem de chegada: ");
 				if (filaBanco.isEmpty())
-					System.out.println("Não há clientes cadastrados nesta fila.\n");
+					System.out.println("Não há clientes nesta fila.\n");
 				else 
 					filaBanco.forEach(System.out::println);
 				break;
 				
 				case 3:
 					if (filaBanco.isEmpty())
-						System.out.println("Não há clientes cadastrados nesta fila\n");
+						System.out.println("Não há clientes nesta fila\n");
 					else 
 					System.out.println("Chegou sua vez, " + filaBanco.poll() + "\nDirija-se ao guichê 1\n");	
 
@@ -76,22 +77,22 @@ public class Fila_ClientesBanco {
 		 * 
 		 * 
 		 * 3
-		 * Não há clientes cadastrados nesta fila
+		 * Não há clientes nesta fila
 		 * 
 		 * 1
 		 * Digite o nome do cliente: 
 		 * João
-		 * Cadastro concluído: João, agora está cadastrado na fila!
+		 * Cadastro concluído: João, agora está na fila!
 		 * 
 		 * 1
 		 * Digite o nome do cliente: 
 		 * Maria
-		 * Cadastro concluído: Maria, agora está cadastrado na fila!
+		 * Cadastro concluído: Maria, agora está na fila!
 		 * 
 		 * 1
 		 * Digite o nome do cliente: 
 		 * Ana
-		 * Cadastro concluído: Ana, agora está cadastrado na fila!
+		 * Cadastro concluído: Ana, agora está na fila!
 		 * 
 		 * 2
 		 * Clientes por ordem de chegada: 
