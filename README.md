@@ -22,9 +22,8 @@
 * [aula_03: laços de repetição](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_03)
 * [aula_04: arrays, vetores e matrizes](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_04)
 * [aula_05: collections](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_05)
-* [aula_06: orientação a objetos - pt. 01]()
-* [aula_07: orientação a objetos - pt. 02]()
-* [aula_08: orientação a objetos - pt. 03]()
+* [aula_06: métodos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_06)
+
 
 <br>
 <br>
