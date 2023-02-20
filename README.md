@@ -18,12 +18,12 @@
 
 * [aula_01: variáveis e operadores](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src)
 
-* [aula_02: laços condicionais](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_02)
-* [aula_03: laços de repetição](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_03)
-* [aula_04: arrays, vetores e matrizes](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_04)
-* [aula_05: collections](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_05)
-* [aula_06: métodos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_06)
-
+* [aula_02: Laços Condicionais](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_02)
+* [aula_03: Laços de Repetição](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_03)
+* [aula_04: Arrays, Vetores e Matrizes](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_04)
+* [aula_05: Collections](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_05)
+* [aula_06: Métodos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_06)
+* [aula_07: Programação Orientada a Objetos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_07)
 
 <br>
 <br>
