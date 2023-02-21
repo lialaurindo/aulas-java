@@ -3,6 +3,11 @@ package aula_07.curso;
 public class TestaCursoEAD {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Instanciar 2 Objetos da Classe Curso;
+		 * Utilizar o Método visualizar() para exibir dados dos 2 Objetos Instanciados.
+		 */
 
 		CursoEAD cursoTecnologia = new CursoEAD("Tecnologia", "Análise e Desenvolvimento de Sistemas", "3 anos", 
 				"\n- Segurança da Informação        |  - Linguagens de Programação\n"

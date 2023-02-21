@@ -1,6 +1,15 @@
 package aula_07.curso;
 
 public class CursoEAD {
+	
+	
+	/*
+	 * Defina pelo menos 5 Atributos relevantes ao Curso EAD;
+	 * Método Construtor com parâmetros;
+	 * Métodos Get e Set para todos os Atributos da Classe Curso;
+	 * Método visualizar;
+	 * 
+	 */
 
 	private String categoria;
 	private String nomeCurso;
