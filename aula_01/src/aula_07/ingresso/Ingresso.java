@@ -19,7 +19,7 @@ public class Ingresso {
 	private Integer codigoIngresso;
 	private Double valorIngresso;
 
-	public Ingresso(String nomeEstabelecimento, String dataIngresso, String tituloFilme, String tipoIngresso,
+	public Ingresso(String nomeEstabelecimento, String dataIngresso, String tituloFilme, String tipoIngresso, 
 			String assentoSala, String salaFilme, String horarioFilme, Integer codigoIngresso, Double valorIngresso) {
 
 		this.nomeEstabelecimento = nomeEstabelecimento;
@@ -107,9 +107,10 @@ public class Ingresso {
 
 	public void visualizar() {
 
-		System.out.println(this.nomeEstabelecimento + "\n" + this.dataIngresso +  " | Cod. Ingresso: " + this.codigoIngresso 
-				+ "\n" + this.tituloFilme + "\n" + this.tipoIngresso + "\n" + "Lugar: " + this.assentoSala + "\n" + this.salaFilme 
-				+ "\n" + this.horarioFilme + "\n" + "Valor Ingresso: " + this.valorIngresso + "\n");
+		System.out.println(this.nomeEstabelecimento + "\n" + this.dataIngresso + " | Cod. Ingresso: "
+				+ this.codigoIngresso + "\n" + this.tituloFilme + "\n" + this.tipoIngresso + "\n" + "Lugar: "
+				+ this.assentoSala + "\n" + this.salaFilme + "\n" + this.horarioFilme + "\n" + "Valor Ingresso: "
+				+ this.valorIngresso + "\n");
 	}
 
 }
