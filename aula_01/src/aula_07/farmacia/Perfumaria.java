@@ -20,7 +20,7 @@ public class Perfumaria extends Farmacia {
 
 	@Override
 	public void reajuste(float percentual) {
-		this.setPreco((this.getPreco() * percentual) + 0.1f);
+		this.setPreco(this.getPreco() + ((this.getPreco() * percentual) + 0.1f));
 		
 	}
 
