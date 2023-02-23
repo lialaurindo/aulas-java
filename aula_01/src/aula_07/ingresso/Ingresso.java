@@ -18,6 +18,10 @@ public class Ingresso {
 	private String horarioFilme;
 	private Integer codigoIngresso;
 	private Double valorIngresso;
+	
+	public Ingresso() {
+		
+	}
 
 	public Ingresso(String nomeEstabelecimento, String dataIngresso, String tituloFilme, String tipoIngresso, 
 			String assentoSala, String salaFilme, String horarioFilme, Integer codigoIngresso, Double valorIngresso) {
