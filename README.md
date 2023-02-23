@@ -23,6 +23,8 @@
 * [aula_05: collections](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_05)
 * [aula_06: métodos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_06)
 * [aula_07: programação orientada a objetos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_07)
+* [aula_08: programação orientada a objetos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_8)
+
 
 <br>
 <br>
