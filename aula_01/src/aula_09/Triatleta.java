@@ -29,7 +29,7 @@ public class Triatleta extends Pessoa implements Ciclista, Corredor, Nadador {
 
 	@Override
 	public void pedalar() {
-		System.out.println("Pedalando");
+		System.out.println("Pedalando!");
 		
 	}
 
