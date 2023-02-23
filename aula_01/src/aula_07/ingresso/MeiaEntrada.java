@@ -23,6 +23,6 @@ public class MeiaEntrada extends Ingresso{
 	public void visualizar() {
 		
 		super.visualizar();
-		System.out.println("Número de rodas: " + this.numeroCarteirinha);
+		System.out.println("Carteira Estudante nº: " + this.numeroCarteirinha);
 	}
 }
