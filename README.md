@@ -25,17 +25,9 @@
 * [aula_07: programação orientada a objetos](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_07)
 * [aula_08: relacionamento entre classes](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_8)
 * [aula_09: interfaces](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_9)
+* [aula_10: exceptions](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_9)
+* [aula_11: optional, lambda, stream](https://github.com/lialaurindo/aulas-java/tree/main/aula_01/src/aula_9)
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 
