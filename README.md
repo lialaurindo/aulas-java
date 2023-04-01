@@ -2,9 +2,9 @@
 <img src="/public/banner.png" alt="drawing"/>
 
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
-![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![Java](https://img.shields.io/badge/java-8B0000.svg?style=for-the-badge&logo=java&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-8B0000.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+![GIT](https://img.shields.io/badge/GIT-8B0000?style=for-the-badge&logo=git&logoColor=white)
 
 
 <br>
